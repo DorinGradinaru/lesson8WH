@@ -1,0 +1,85 @@
+
+
+.item {
+    padding: 16px;
+    border: 1px solid black;
+}
+
+.container {
+    
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 10px ;
+    justify-content: center;   
+}
+
+.item5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item9 {
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+.item1 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.item8 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.container1 {
+    width: 300px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.h1 {
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+
+
+
+.input {
+    font-family: "Kode Mono", monospace;
+    width: 100%;
+    padding: 10px;
+    padding-left: 0px;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+
+
+
+.signIn {
+    font-family: "Kode Mono", monospace;
+    width: 100%;
+    padding: 8px;
+    background-color: black;
+    color: gray;
+    cursor: pointer;
+    
+}
+
+
+
+.p {
+    color: rgb(70, 80, 73);
+    text-align: center;
+}
+.a {
+    color: black;
+    text-decoration: none;
+}
